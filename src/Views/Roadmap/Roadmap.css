@@ -1,0 +1,131 @@
+.RoadMap_Hero_Section {
+  background-image: url('./BgImgOne.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center;
+  height: 100%;
+  background-size: cover;
+  /* border-radius: 25px; */
+  padding: 20px;
+}
+.RoadMapBgTwo {
+  background-image: url('./BgTwo.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center;
+  height: 100%;
+  background-size: cover;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.RoadmapHeroText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.12rem;
+  text-shadow: 3px 0 0 #b8e503, -3px 0 0 #b8e503, 0 3px 0 #b8e503,
+    0 -3px 0 #b8e503, 3px 3px #b8e503, -3px -3px 0 #b8e503, 3px -3px 0 #b8e503,
+    -3px 3px 0 #b8e503;
+  filter: blur(0.7px);
+}
+
+.RoadmapMainTextStyle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: auto;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.12rem;
+  text-shadow: 3px 0 0 #b8e503, -3px 0 0 #b8e503, 0 3px 0 #b8e503,
+    0 -3px 0 #b8e503, 3px 3px #b8e503, -3px -3px 0 #b8e503, 3px -3px 0 #b8e503,
+    -3px 3px 0 #b8e503;
+  filter: blur(2px);
+}
+
+.RoadMapScrollTable {
+  background-image: url('./MesaBg.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center;
+  height: 100%;
+  background-size: 100%;
+  border-radius: 25px;
+  padding: 20px;
+  min-width: 1200px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.Gradient-Border_Roadmap {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 55px;
+  max-width: 22em;
+  position: relative;
+  /* padding: 30% 2em; */
+  box-sizing: border-box;
+  color: #fff;
+  background: linear-gradient(to right, #b8e503, #23251e);
+  background-clip: padding-box;
+  border: solid 5px transparent;
+  border-radius: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  .RoadmapMainTextStyle {
+    font-size: 60px;
+    filter: blur(2px);
+  }
+  .RoadmapHeroText {
+    font-size: 30px;
+    /* line-height: auto; */
+  }
+  .RoadMapScrollTable {
+    background-image: url('./MesaBg.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    height: 100%;
+    background-size: 100%;
+    border-radius: 25px;
+    padding: 20px;
+    min-width: 1200px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+  .RoadmapMainTextStyle {
+    font-size: 60px;
+    filter: blur(2px);
+  }
+  .RoadmapHeroText {
+    font-size: 30px;
+    /* line-height: auto; */
+  }
+  .RoadMapScrollTable {
+    background-image: url('./MesaBg.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    height: 100%;
+    background-size: 100%;
+    border-radius: 25px;
+    padding: 20px;
+    min-width: 1200px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+}

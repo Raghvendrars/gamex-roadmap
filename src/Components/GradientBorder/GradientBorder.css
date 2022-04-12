@@ -1,0 +1,14 @@
+.Gradient-Border {
+  border: 0px;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+    to right,
+    rgb(0, 000, 000),
+    rgb(184, 229, 3),
+    rgb(00, 000, 000)
+  );
+  border-image-slice: 1;
+  color: white;
+  margin: auto;
+  text-decoration: none;
+}
